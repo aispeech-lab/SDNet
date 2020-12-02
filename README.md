@@ -3,9 +3,15 @@
 # Requirements:
 
 # Model Descriptions:
-To be released
+![](https://github.com/aispeech-lab/SDNet/blob/main/jpg/sdnet.jpeg)  
 
 # Contact
 Email:lichenxing007@gmail.com
+
+#TODO
+1. pretrained models.
+2. separated samples.
+
+
 
 
