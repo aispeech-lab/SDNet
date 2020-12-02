@@ -1,0 +1,81 @@
+log:  './log/'
+epoch:  300
+batch_size: 1
+param_init:  0.1
+optim:  'adam'
+loss: 'focal_loss'
+use_center_loss: 0
+learning_rate:  0.001
+max_grad_norm:  5
+learning_rate_decay:  0.5
+
+mask:  1
+schedule:  1
+bidirec:  True
+start_decay_at:  5
+emb_size:  256
+encoder_hidden_size:  256
+decoder_hidden_size:  512
+num_layers:  4
+dropout:  0.5
+max_tgt_len:  5
+eval_interval:  1000
+save_interval:  1000
+max_generator_batches:  32
+metric:  ['hamming_loss', 'micro_f1']
+shared_vocab:  0
+WFM: 1
+MLMSE: 0
+beam_size:  5
+tmp_score: 0
+top1: 0 
+ct_recu: 0 
+
+use_tas: 1
+all_soft: 0 
+
+global_emb:  1
+global_hidden: 0
+SPK_EMB_SIZE: 256 
+schmidt: 0
+unit_norm: 1 
+reID: 0
+is_SelfTune :  0
+is_dis: 0
+speech_cnn_net: 0 
+relitu: 0
+ALPHA:  0.5
+quchong_alpha: 1
+
+#Minimum number of mixed speakers for training
+MIN_MIX:  2
+#Maximum number of mixed speakers for training
+MAX_MIX:  2
+MODE:  1
+DATASET :  'WSJ0'
+is_ComlexMask:  1
+num_samples_one_epoch: 20000 
+
+Ground_truth:  1
+Comm_with_Memory: 0
+HIDDEN_UNITS:  300
+NUM_LAYERS:  3
+EMBEDDING_SIZE:  50
+
+ATT_SIZE: 100
+AUGMENT_DATA:  0
+MAX_EPOCH:  600
+EPOCH_SIZE:  600
+FRAME_RATE:  8000
+FRAME_LENGTH: 256
+FRAME_SHIFT:  64
+SHUFFLE_BATCH:  1
+voice_dB: 2.5 
+noise_dB: -10
+normalize: 1 
+MIN_LEN:  24000
+MAX_LEN:  24000 
+WINDOWS:  FRAME_LENGTH
+START_EALY_STOP:  0
+IS_LOG_SPECTRAL :  0
+channel_first: 1
