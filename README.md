@@ -8,18 +8,20 @@ soundfile <br>
 # Model Descriptions:
 ![](https://github.com/aispeech-lab/SDNet/blob/main/jpg/sdnet.jpeg)  
 
-# data Preparation
+
+
+# Data Preparation
 
 Please refer to predata_WSJ_lcx.py
 A more detailed dataset preparation procedure will be updated soon.
 
 # Train and Test
 
-For train:
+For train: <br>
 python train_WSJ0_SDNet.py <br>
 
-For test
-python test_WSJ0_SDNet.py
+For test: <br>
+python test_WSJ0_SDNet.py <br>
 
 Please Modify the model path in test_WSJ0_SDNet.py.
 
